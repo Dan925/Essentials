@@ -1,3 +1,3 @@
-# Useful commands
-
-- Start the dev server in a 2nd terminal : `python manage.py runserver`
+# Essentials E-commerce store
+## CMDS
+- Start the dev server: `python manage.py runserver`

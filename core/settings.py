@@ -65,7 +65,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'livereload.middleware.LiveReloadScript',
-
+    'store.middleware.CartSessionMiddleware',
 ]
 
 ROOT_URLCONF = 'core.urls'

@@ -35,12 +35,7 @@ const updateUserOrder = async (productID, action) => {
   });
 
   if (res.ok) {
-    const data = await res.json();
-    console.log("Success: ", data);
-
     refreshUIcomponents();
-
-    console.log("No it is what it is....");
   } else {
     throw new Error("HTTP status " + res.status);
   }

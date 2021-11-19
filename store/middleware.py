@@ -12,7 +12,7 @@ class CartSessionMiddleware:
             if not request.session.get('cart'):
                 cart = {"num_items":0,"shipping":False,"total":0,"items":[]}
                 request.session['cart'] = json.dumps(cart)
-                print(cart)
+  
 
         response = self.get_response(request)
 

@@ -82,7 +82,7 @@ def cart(request):
             cart = json.loads(request.session['cart'])
             cart_items = cart["num_items"]
             cart_total = Decimal(cart["total"])
-            
+
             shipping = cart["shipping"]
             items = []
             for item in cart['items']:
@@ -190,7 +190,6 @@ def updateItem(request):
             order_item.delete()
     else:
         try:
-            print(request.session)
             cart = json.loads(request.session['cart'])
             print(cart)
             num_items = cart["num_items"]

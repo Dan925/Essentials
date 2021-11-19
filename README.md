@@ -1,6 +1,6 @@
 # Essentials E-commerce store
 
-- Simple e-commerce store with guest user cart usinf django session cookies
+- Simple e-commerce store with guest user cart using django session cookies
 
 ## CMDS
 
